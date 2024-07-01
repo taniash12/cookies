@@ -1,0 +1,63 @@
+body{
+    min-height: 100vh;
+    background-color: #267798;
+}
+.wrapper{
+    position: fixed;
+    bottom: 50px;
+    right: -370px;
+    max-width: 345px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px 25px 22px;
+    transition: right 0.3s ease;
+}
+.wrapper.show{
+    right: 20px;
+}
+.div-wrapper{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+.fa-cookie-bite{
+    color: #267798;
+    font-size: 32px;
+}
+.title-cookies{
+    color: #267798;
+    font-weight: 500;
+    font-size: 32px;
+}
+.data{
+    color: #333;
+    font-size: 16px;
+    margin-top: 16px;
+}
+.data a{
+    color: #267798;
+}
+.data a:hover{
+    text-decoration: underline;
+}
+.buttons{
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button{
+    border: none;
+    color: #fff;
+    width: calc(100% / 2 - 10px);
+    padding: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #4070f4;
+    transition: all 0.2s ease;
+}
+.button:hover{
+    background-color: #267798;
+}
